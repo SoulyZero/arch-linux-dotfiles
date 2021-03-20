@@ -1,0 +1,4 @@
+#!/bin/sh
+
+killall wallpaper-slideshow
+i3-msg exit

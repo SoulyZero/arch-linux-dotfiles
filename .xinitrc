@@ -49,5 +49,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 nitrogen --restore &
-setxkbmap -model pc104 -layout us,si -variant -option grp:alt_shift_toggle &
+key-mapper-control --command autoload &
+/home/souly/scripts/wallpaper-slideshow &
 exec i3

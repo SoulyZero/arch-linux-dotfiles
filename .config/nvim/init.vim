@@ -147,3 +147,4 @@ function! ToggleHiddenAll()
     endif
 endfunction
 nnoremap <leader>h :call ToggleHiddenAll()<CR>n
+colorscheme torte
