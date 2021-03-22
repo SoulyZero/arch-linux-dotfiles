@@ -13,5 +13,5 @@
 * ttf-all-the-icons
 * nerd-fonts-complete
 ### Other dependencies
-python dbus
-python pillow
+* python dbus
+* python pillow
