@@ -1,5 +1,5 @@
 # My arch linux dotfiles
-![my config](https://cdn.discordapp.com/attachments/643378516754300958/823461356035506226/unknown.png)
+![my config](https://i.imgur.com/8NouUHv.jpg)
 ### Fonts needed
 * ttf-ms-fonts
 * ttf-win10
