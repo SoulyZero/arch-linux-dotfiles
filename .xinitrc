@@ -50,5 +50,5 @@ fi
 
 nitrogen --restore &
 key-mapper-control --command autoload &
-/home/souly/scripts/wallpaper-slideshow &
+~/scripts/wallpaper-slideshow &
 exec i3
