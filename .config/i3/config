@@ -45,6 +45,8 @@ bindsym $mod+Return exec kitty
 #
 bindsym $mod+Shift+s exec flameshot gui
 #
+bindsym $mod+Shift+Escape exec rofi -show power-menu -modi "power-menu:~/scripts/rofi-power-menu --choices=lockscreen/shutdown/reboot/hibernate"
+#
 bindsym $mod+p exec kitty bpytop
 #
 bindsym $mod+Shift+f exec kitty ranger
