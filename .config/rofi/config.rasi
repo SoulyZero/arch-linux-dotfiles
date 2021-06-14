@@ -6,7 +6,7 @@
   blue:       #58e4cf;
   mangenta:   #d886f3;
   cyan:       #6cdcf7;
-  emphasis:   #F2D2F2;
+  emphasis:   #b7c9e6;
   text:       #1777AD;
   text-alt:   #19D5A5;
   fg:         #abb2bf;
@@ -15,7 +15,7 @@
   spacing: 0;
   background-color: transparent;
 
-  font: "Knack Nerd Font 12";
+  font: "cantarel 12";
   text-color: @text;
 }
 
@@ -30,7 +30,7 @@ window {
 }
 
 mainbox {
-  padding: 10px 10px;
+  padding: 5px 10px;
 }
 
 inputbar {
@@ -62,12 +62,12 @@ element {
   padding: 5px;
   text-color: @text-alt;
   highlight: bold #95ee8f; /* green */
-  border-radius: 3px;
+  border-radius: 1px;
 }
 
 element selected {
   background-color: @emphasis;
-  text-color: #1777AD;
+  text-color: #956bbd;
 }
 
 element urgent, element selected urgent {

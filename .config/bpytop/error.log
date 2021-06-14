@@ -1,0 +1,48 @@
+08/05/21 (11:18:49) | ERROR: Data collection thread failed with exception: psutil.NoSuchProcess process no longer exists (pid=394955)
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/psutil/_common.py", line 447, in wrapper
+    ret = self._cache[fun]
+AttributeError: 'Process' object has no attribute '_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/psutil/_common.py", line 447, in wrapper
+    ret = self._cache[fun]
+AttributeError: _cache
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/psutil/_pslinux.py", line 1576, in wrapper
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3.9/site-packages/psutil/_common.py", line 450, in wrapper
+    return fun(self)
+  File "/usr/lib/python3.9/site-packages/psutil/_pslinux.py", line 1618, in _parse_stat_file
+    with open_binary("%s/%s/stat" % (self._procfs_path, self.pid)) as f:
+  File "/usr/lib/python3.9/site-packages/psutil/_common.py", line 711, in open_binary
+    return open(fname, "rb", **kwargs)
+FileNotFoundError: [Errno 2] No such file or directory: '/proc/394955/stat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/sbin/bpytop", line 2930, in _runner
+    collector._collect()
+  File "/sbin/bpytop", line 3767, in _collect
+    if det.parent() != None: cls.details["parent_name"] = det.parent().name()
+  File "/usr/lib/python3.9/site-packages/psutil/__init__.py", line 546, in parent
+    ppid = self.ppid()
+  File "/usr/lib/python3.9/site-packages/psutil/_common.py", line 450, in wrapper
+    return fun(self)
+  File "/usr/lib/python3.9/site-packages/psutil/__init__.py", line 605, in ppid
+    return self._proc.ppid()
+  File "/usr/lib/python3.9/site-packages/psutil/_pslinux.py", line 1576, in wrapper
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3.9/site-packages/psutil/_pslinux.py", line 2142, in ppid
+    return int(self._parse_stat_file()['ppid'])
+  File "/usr/lib/python3.9/site-packages/psutil/_pslinux.py", line 1583, in wrapper
+    raise NoSuchProcess(self.pid, self._name)
+psutil.NoSuchProcess: psutil.NoSuchProcess process no longer exists (pid=394955)
+08/05/21 (11:18:50) | WARNING: Exiting with errorcode (1). Runtime 0:00:23 
+

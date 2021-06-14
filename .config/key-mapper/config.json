@@ -1,6 +1,7 @@
 {
     "autoload": {
-        "SONiX USB DEVICE": "fix"
+        "SONiX USB DEVICE": "fix",
+        "Logitech MX Master 3": "new preset"
     },
     "macros": {
         "keystroke_sleep_ms": 10
