@@ -1,17 +1,2 @@
 # My arch linux dotfiles
-![my config](https://i.imgur.com/8NouUHv.jpg)
-### Fonts needed
-* ttf-ms-fonts
-* ttf-win10
-* ttf-windows
-* ttf-unifont
-* ttf-material-design-icons-git
-* ttf-liberation
-* ttf-jetbrains-mono
-* ttf-font-awesome
-* ttf-dejavu
-* ttf-all-the-icons
-* nerd-fonts-complete
-### Other dependencies
-* python dbus
-* python pillow
+![my config](https://i.imgur.com/vyZdSSa.jpg)
