@@ -1,0 +1,4 @@
+#!/bin/sh
+
+killall tint2
+i3-msg restart

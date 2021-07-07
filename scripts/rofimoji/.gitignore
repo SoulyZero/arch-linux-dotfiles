@@ -1,7 +1,0 @@
-__pycache__/
-*.py[cod]
-.envrc
-.direnv
-.idea
-emoji-picker.iml
-emojis.py

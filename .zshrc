@@ -111,6 +111,7 @@ alias code-blocks="nvim"
 alias update="yay -Syu"
 alias amongus="cowsay -f tux "sus""
 alias weather="curl wttr.in/ljubljana"
+alias pubip="curl icanhazip.com"
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -120,3 +121,5 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

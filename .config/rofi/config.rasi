@@ -22,10 +22,10 @@
 window {
   transparency: "real";
   fullscreen: false;
-  location: north;
-  anchor: north;
-  height: 25%;
-  width: 40%;
+  location: center;
+  anchor: center;
+  height: 40%;
+  width: 25%;
   background-color: #282c34dd;
 }
 
@@ -40,6 +40,7 @@ inputbar {
 
 prompt {
   text-color: #268EF8;
+  text: "wow";
 }
 
 textbox-prompt-colon {
@@ -60,7 +61,7 @@ listview {
 
 element {
   padding: 5px;
-  text-color: @text-alt;
+  text-color: @cyan;
   highlight: bold #95ee8f; /* green */
   border-radius: 1px;
 }
