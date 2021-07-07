@@ -30,6 +30,8 @@ welcome || error
 
 # installing dependencies
 
+mkdir ~/.config
+
 yay -Sy bpytop dunst i3-gaps kitty neofetch nitrogen neovim picom-tryone-git polybar ranger rofi key-mapper-git nvidia nvidia-utils xorg ttf-all-the-icons ttf-carlito ttf-carlito ttf-dejavu ttf-font-awesome ttf-hack ttf-hanazono ttf-hellvetica ttf-jetbrains-mono ttf-liberation ttf-material-design-icons-git ttf-ms-fonts ttf-win10 ttf-windows || { echo "Please enable yay"; exit 1; }
 
 # cloning
