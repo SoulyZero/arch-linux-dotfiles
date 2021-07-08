@@ -1,7 +1,7 @@
 # My arch linux dotfiles
 For a simpler install just run
 ```
-curl -O https://raw.githubusercontent.com/dstuden/ArchLinux-dotfiles/master/basedarch.sh
+curl -O https://rb.gy/skptvr (https://raw.githubusercontent.com/dstuden/basedarch/main/basedarch.sh?token=AOGA7QZLSPLJMFLNXPA7WWTA6AGR4 if not working)
 sudo chmod +x basedarch.sh
 ./basedarch.sh
 ```
